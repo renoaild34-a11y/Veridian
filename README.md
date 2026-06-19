@@ -1,5 +1,7 @@
 # Veridian — a realistic Iris shaderpack
 
+**Everything from here is all Clanker Generated.**
+
 Realistic deferred-forward shaderpack for **Minecraft 1.20.1 and 1.21.1**
 (Fabric + Iris). One pack covers both versions — there is no version-specific
 GLSL, so the same `shaders/` folder loads on either.
