@@ -1,0 +1,89 @@
+
+
+screen.SHADOWS=Shadows
+screen.LIGHTING=Lighting
+screen.SKY=Sky & Atmosphere
+screen.CLOUDS=Volumetric Clouds
+screen.WATER=Water
+screen.VOLUMETRICS=Fog & God Rays
+screen.REFLECTIONS=Reflections (SSR)
+screen.AO=Ambient Occlusion
+screen.POST=Post Processing
+screen.DH=Distant Horizons
+
+option.SHADOWS_ENABLED=Shadows
+option.SHADOW_SOFTNESS=Shadow Softness
+option.SHADOW_SOFTNESS.comment=PCF blur radius in texels. Higher = softer penumbra.
+option.SHADOW_FILTER_SAMPLES=Shadow Samples
+option.SHADOW_FILTER_SAMPLES.comment=PCF tap count. Higher = smoother, slower.
+option.SHADOW_BIAS=Shadow Bias
+option.SHADOW_BIAS.comment=Raise if you see shadow acne; lower if shadows peter-pan.
+option.COLORED_SHADOWS=Colored Shadows
+option.COLORED_SHADOWS.comment=Tinted light through translucent blocks such as stained glass and water.
+option.LEAF_SHADOWS_ENABLED=Leaf Shadows
+option.LEAF_SHADOWS_ENABLED.comment=Lets leaves cast shadows. Off avoids blocky square tree shadows.
+
+option.AMBIENT_STRENGTH=Ambient Light
+option.SUNLIGHT_STRENGTH=Sunlight
+option.BLOCKLIGHT_STRENGTH=Block Light
+option.SPECULAR_ENABLED=Specular Highlights
+option.HELD_LIGHT_ENABLED=Held Torch Light
+option.HELD_LIGHT_ENABLED.comment=Torches, lanterns, glowstone, and similar held items give off warm light near the player.
+option.COLORED_LIGHTS_ENABLED=Colored Lights
+option.COLORED_LIGHTS_ENABLED.comment=Colored glow/bloom for redstone, soul, sea-lantern, and warm light sources.
+option.COLORED_LIGHT_SPILL_SCREENSPACE=Experimental Colored Spill
+option.COLORED_LIGHT_SPILL_SCREENSPACE.comment=Fake screen-space colored spill from visible light blocks. Off by default because it can create odd halos.
+
+option.ATMOSPHERE_QUALITY=Atmospheric Scattering
+option.SKY_BRIGHTNESS=Sky Brightness
+option.STARS_ENABLED=Stars
+option.MOON_ENABLED=Moon
+option.MOON_ENABLED.comment=Draws an analytic moon disc with subtle crater marks at night.
+
+option.CLOUDS_ENABLED=Volumetric Clouds
+option.CLOUD_STEPS=Cloud Samples
+option.CLOUD_STEPS.comment=Primary raymarch steps. Biggest perf cost.
+option.CLOUD_LIGHT_STEPS=Cloud Light Samples
+option.CLOUD_COVERAGE=Coverage
+option.CLOUD_DENSITY=Density
+option.CLOUD_HEIGHT=Altitude
+option.CLOUD_THICKNESS=Thickness
+option.CLOUD_SPEED=Wind Speed
+
+option.WATER_WAVES=Water Waves
+option.WATER_WAVE_HEIGHT=Wave Height
+option.WATER_REFRACTION=Refraction
+option.WATER_ABSORPTION=Water Tint Depth
+
+option.VL_ENABLED=Volumetric Light
+option.VL_STEPS=God Ray Samples
+option.VL_STRENGTH=God Ray Strength
+option.FOG_ENABLED=Atmospheric Fog
+option.FOG_DENSITY=Fog Density
+
+option.SSR_ENABLED=Screen-Space Reflections
+option.SSR_STEPS=SSR Steps
+option.SSR_REFINE=SSR Refine Steps
+
+option.SSAO_ENABLED=Ambient Occlusion
+option.SSAO_SAMPLES=AO Samples
+option.SSAO_RADIUS=AO Radius
+option.SSAO_STRENGTH=AO Strength
+
+option.TONEMAP=Tonemap Operator
+option.TONEMAP.comment=0 = Reinhard, 1 = ACES, 2 = Uchimura (filmic).
+option.EXPOSURE=Exposure
+option.CONTRAST=Contrast
+option.SATURATION=Saturation
+option.VIBRANCE=Vibrance
+option.WHITE_BALANCE=White Balance
+option.WHITE_BALANCE.comment=Negative = cooler, positive = warmer.
+option.BLOOM_ENABLED=Bloom
+option.BLOOM_STRENGTH=Bloom Strength
+
+option.DH_FOG_BLEND=Blend DH Into Fog
+option.DH_FOG_BLEND.comment=Fades Distant Horizons terrain into the atmosphere.
+option.DH_WATER_ENABLED=DH LOD Water
+option.DH_WATER_ENABLED.comment=Renders Distant Horizons water. Off avoids DH transparency drawing over foreground foliage.
+option.DH_TERRAIN_WATER_FIX=Hide DH Terrain Water
+option.DH_TERRAIN_WATER_FIX.comment=Hides water-colored Distant Horizons terrain pixels that can draw as a blue strip over nearby leaves.
